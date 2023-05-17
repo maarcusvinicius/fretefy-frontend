@@ -90,7 +90,7 @@ $ npm install
 $ ng serve
 ```
 
-4. Inicie o servidor mock da aplicação.
+4. Inicie o servidor mock da aplicação em outro terminal no mesmo diretorio da aplicação.
 
 ```bash
 $ json-server --watch db.json

@@ -90,13 +90,7 @@ $ npm install
 $ ng serve
 ```
 
-4. Inicie o servidor mock da aplicação em outro terminal no mesmo diretorio da aplicação.
-
-```bash
-$ json-server --watch db.json
-```
-
-5. Abra o navegador e acesse http://localhost:4200 para visualizar a aplicação.
+4. Abra o navegador e acesse http://localhost:4200 para visualizar a aplicação.
 
 <br />
 

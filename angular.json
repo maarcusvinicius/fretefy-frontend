@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fretefy": {
+    "fretefy-frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fretefy",
+            "outputPath": "dist/fretefy-frontend",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fretefy:build:production"
+              "browserTarget": "fretefy-frontend:build:production"
             },
             "development": {
-              "browserTarget": "fretefy:build:development"
+              "browserTarget": "fretefy-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fretefy:build"
+            "browserTarget": "fretefy-frontend:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "263f2f5b-1312-4505-95a0-fb1ab24aa2d0"
+    "analytics": "31a3c66f-e610-4877-9621-ae43d87fad50"
   }
 }

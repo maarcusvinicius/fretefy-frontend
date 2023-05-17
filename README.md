@@ -25,7 +25,7 @@ O projeto consiste em um sistema de gerenciamento de regiões, desenvolvido em A
 
 <br />
 
-Teste você mesmo!!🔎 https:
+Teste você mesmo!!🔎 https://fretefy-frontend.vercel.app/
 
 <br />
 

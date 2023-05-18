@@ -11,23 +11,23 @@ export class ApiService {
 
 
   addcadastro(data: datamodel) {
-    return this.http.post<datamodel>('https://my-json-server.typicode.com/maarcusvinicius/fretefy-frontend/posts', data);
+    return this.http.post<datamodel>('http://localhost:3000/posts', data);
   }
 
   getcadastro() {
-    return this.http.get<datamodel[]>('https://my-json-server.typicode.com/maarcusvinicius/fretefy-frontend/posts');
+    return this.http.get<datamodel[]>('http://localhost:3000/posts');
   }
 
   deletecadastro(id: number) {
-    return this.http.delete<datamodel>('https://my-json-server.typicode.com/maarcusvinicius/fretefy-frontend/posts/'+id);
+    return this.http.delete<datamodel>('http://localhost:3000/posts/'+id);
   }
 
   fetchdata(id: number) {
-    return this.http.get<datamodel>('https://my-json-server.typicode.com/maarcusvinicius/fretefy-frontend/posts/'+id)
+    return this.http.get<datamodel>('http://localhost:3000/posts/'+id)
   }
 
   updatecadastro(data:datamodel, id:number) {
-    return this.http.put<datamodel>('https://my-json-server.typicode.com/maarcusvinicius/fretefy-frontend/posts/'+id, data)
+    return this.http.put<datamodel>('http://localhost:3000/posts/'+id, data)
   }
 }
 

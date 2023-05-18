@@ -19,14 +19,10 @@ O projeto consiste em um sistema de gerenciamento de regiões, desenvolvido em A
     <img align="center" height="200" alt="NextLevelWeek" title="#NextLevelWeek" src="./src/assets/Fretefy_Screen_1.png"><br /><br />
     <img align="center" height="200" alt="NextLevelWeek" title="#NextLevelWeek" src="./src/assets/Fretefy_Screen_2.png"><br /><br />
     <img align="center" height="200" alt="NextLevelWeek" title="#NextLevelWeek" src="./src/assets/Fretefy_Screen_3.png">
-    
   </p>
 </div>
 
 <br />
-
-Teste você mesmo!!🔎 https://fretefy-frontend.vercel.app/
-
 <br />
 
 ## 🎡 Funcionalidades
@@ -53,6 +49,8 @@ Teste você mesmo!!🔎 https://fretefy-frontend.vercel.app/
 -   Não a possibiidade de cadastrar uma região com o mesmo CEP de outra já cadastrada na aplicação, porém aparecera uma informação caso aconteça um engano.
 
 -   Na inserção de CEP, apenas há possibilidade de adicionar números.
+
+-   Para que o projeto funcione 100% deve ser iniciado, junto com o projeto, o servidor JSON.
 
 <br />
 
@@ -90,7 +88,14 @@ $ npm install
 $ ng serve
 ```
 
-4. Abra o navegador e acesse http://localhost:4200 para visualizar a aplicação.
+4. Inicie o servidor JSON Server em outro terminal para o mesmo caminho.
+
+```bash
+$ json-server --watch db.json
+```
+
+
+5. Abra o navegador e acesse http://localhost:4200 para visualizar a aplicação.
 
 <br />
 

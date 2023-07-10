@@ -30,17 +30,17 @@ Teste você mesmo (de forma estatica)!!🔎 https://fretefy-frontend-3c6otaz7d-m
 
 ## 🎡 Funcionalidades
 
--   Listagem de Regiões: Permite visualizar todas as regiões cadastradas, apresentando informações relevantes sobre cada uma delas.
+-   Listagem de Regiões: Permite visualizar todas as regiões cadastradas, apresentando informações relevantes sobre cada uma delas
 
--   Busca de Regiões: Permite pesquisar regiões cadastradas, apresentando sua região no input principal.
+-   Busca de Regiões: Permite pesquisar regiões cadastradas, apresentando sua região no input principal
 
--   Cadastro de Regiões: Permite adicionar novas regiões ao sistema, informando os dados necessários, como nome, estado, cidade, bairro e CEP.
+-   Cadastro de Regiões: Permite adicionar novas regiões ao sistema, informando os dados necessários, como nome, estado, cidade, bairro e CEP
 
--   Edição de Regiões: Possibilita a edição dos dados de uma região existente, permitindo atualizar informações como nome, estado, cidade, bairro e CEP.
+-   Edição de Regiões: Possibilita a edição dos dados de uma região existente, permitindo atualizar informações como nome, estado, cidade, bairro e CEP
 
--   Ações de Ativação e Desativação: Permite ativar ou desativar uma região, alterando seu status no sistema.
+-   Ações de Ativação e Desativação: Permite ativar ou desativar uma região, alterando seu status no sistema
 
--   JSON Server: Essa funcionalidade desempenha um papel importante na minha aplicação, permitindo simular um backend e armazenar os dados em formato JSON. Com isso, pude criar endpoints personalizados e definir os dados que seriam retornados pela API.
+-   JSON Server: Essa funcionalidade desempenha um papel importante na minha aplicação, permitindo simular um backend e armazenar os dados em formato JSON. Com isso, pude criar endpoints personalizados e definir os dados que seriam retornados pela API
 
 <br />
 
@@ -161,6 +161,17 @@ fretefy-frontend/
 
 -   `AppComponent`: é o componente raiz da aplicação Angular. É responsável por fornecer o template e o estilo global da aplicação. Contém o roteador principal da aplicação, definindo as rotas e os componentes correspondentes a cada rota.
 
+<br />
+
+## License
+
+<p>
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit/). Feel free to use, modify and distribute it as needed.
+
+</p>
+
+<br />
 <br />
 <br />
 <h4 align="center"> 
